@@ -1,0 +1,15 @@
+// Example program
+#include <iostream>
+#include <string>
+
+int main()
+{
+
+  double num1 = 0; 
+  std::cout << "enter a number"; 
+  std::cin >> num1; 
+  
+  double num2 = 5 + num1; 
+  std::cout << " 5 + your number is " << num2;
+    
+}
