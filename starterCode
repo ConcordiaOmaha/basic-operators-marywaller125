@@ -9,7 +9,7 @@ int main()
   std::cout << "enter a number"; 
   std::cin >> num1; 
   
-  double num2 = 5 + num1; 
-  std::cout << " 5 + your number is " << num2;
+  double num2 = 5 * num1; 
+  std::cout << " 5 times your number is " << "\n" <<num2;
     
 }
